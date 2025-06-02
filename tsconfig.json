@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target":"es6", // 컴파일된 자바스크립트 버전
+        "module":"ESNext", // 모듈 시스템 지정
+        "strict": true, // 엄격한 타입체킹
+        "esModuleInterop": true, //CommonJs와 ES 모듈 간의 상호 작용
+        "skipLibCheck": true, // 외부라이브러리 타입체킹 여부
+        "forceConsistentCasingInFileNames": true, // 파일 이름의 대소문자 일관성을 강제
+        "moduleResolution": "node", //TypeScript가 모듈(외부 라이브러리나 프로젝트 내 다른 파일)을 해석
+        "outDir": "./dist", //컴파일된 파일들이 저장된 디렉토리를 지정
+        "sourceMap": true, // 소스맵을 생성하여, 디버깅 시 TypeScript코드와 매칭
+        "rootDir": "./"
+    },
+}
